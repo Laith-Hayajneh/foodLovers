@@ -1,0 +1,134 @@
+body{
+    background-image: url(background.jpg);
+    font-family: 'Fredoka One', cursive;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .bg {
+    /* The image used */
+    background-image: url(background.jpg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+header {
+    /* padding: 30px;
+    height: 40px; */
+    background-color: rgba(255, 229, 72, 255);
+    margin-bottom: 50px;
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+ 
+#logo {
+    width: 200px;
+    display: inline-block;
+  
+}
+
+h1 {
+    color: red;
+    font-size:52px;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    top: 100px;
+
+    width:100%; /*Add this*/
+}
+
+p {
+    color: black;
+    margin: 10px 0 10px 3px;
+}
+
+td {
+    vertical-align: text-top;
+    width: 200px;
+}
+
+table, th, td {
+
+    vertical-align: top;
+    border: 3px solid red;
+}
+
+/* td{
+      width: 200px; */
+
+/* } */
+table{
+    background-color: rgb(236, 221, 202);
+}
+img {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+}
+div{
+    padding: 30px;
+
+    background-color: rgba(255, 229, 72, 255);
+
+    margin-right: 200px;
+
+    display: inline-block;
+}
+#left{
+    margin-left: 30px;
+    position: relative;
+}
+label{
+    display: block;
+    color: red;
+}
+#right{
+    position: relative;
+    border: solid red;
+}
+#footer {
+    margin-top: 100px;
+    /* position: absolute; */
+    bottom: 30px;
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
+
+
+.btn{
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+}
+fieldset{
+    padding: 25px;
+}
